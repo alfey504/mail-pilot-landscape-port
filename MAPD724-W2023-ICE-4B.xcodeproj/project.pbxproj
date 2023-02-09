@@ -43,6 +43,8 @@
 		E91B227C29946CB80026AE3E /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B227A29946CB80026AE3E /* CollisionManager.swift */; };
 		E91B227F29946F920026AE3E /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E91B227E29946F920026AE3E /* StartScene.sks */; };
 		E91B228129946FC30026AE3E /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B228029946FC30026AE3E /* StartScene.swift */; };
+		E91B2284299478A00026AE3E /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B2283299478A00026AE3E /* EndScene.swift */; };
+		E91B2286299478BE0026AE3E /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E91B2285299478BE0026AE3E /* EndScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		E91B227E29946F920026AE3E /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
 		E91B228029946FC30026AE3E /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		E91B2282299475A80026AE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E91B2283299478A00026AE3E /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		E91B2285299478BE0026AE3E /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,8 @@
 				E91B222F29946BC90026AE3E /* GameScene.swift */,
 				E91B227E29946F920026AE3E /* StartScene.sks */,
 				E91B228029946FC30026AE3E /* StartScene.swift */,
+				E91B2285299478BE0026AE3E /* EndScene.sks */,
+				E91B2283299478A00026AE3E /* EndScene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91B2286299478BE0026AE3E /* EndScene.sks in Resources */,
 				E91B226129946C990026AE3E /* thunder.ogg in Resources */,
 				E91B225829946C990026AE3E /* plane1.png in Resources */,
 				E91B223529946BC90026AE3E /* Main.storyboard in Resources */,
@@ -320,6 +327,7 @@
 				E91B227629946CA90026AE3E /* Ocean.swift in Sources */,
 				E91B227329946CA90026AE3E /* Layer.swift in Sources */,
 				E91B227529946CA90026AE3E /* Cloud.swift in Sources */,
+				E91B2284299478A00026AE3E /* EndScene.swift in Sources */,
 				E91B228129946FC30026AE3E /* StartScene.swift in Sources */,
 				E91B222A29946BC90026AE3E /* AppDelegate.swift in Sources */,
 				E91B227729946CA90026AE3E /* Player.swift in Sources */,
