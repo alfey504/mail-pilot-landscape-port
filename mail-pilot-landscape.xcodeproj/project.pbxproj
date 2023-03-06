@@ -20,7 +20,6 @@
 		E91B225929946C990026AE3E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E91B224529946C990026AE3E /* backButton.png */; };
 		E91B225A29946C990026AE3E /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = E91B224629946C990026AE3E /* plane.png */; };
 		E91B225B29946C990026AE3E /* island.png in Resources */ = {isa = PBXBuildFile; fileRef = E91B224729946C990026AE3E /* island.png */; };
-		E91B225C29946C990026AE3E /* ocean.gif in Resources */ = {isa = PBXBuildFile; fileRef = E91B224829946C990026AE3E /* ocean.gif */; };
 		E91B225D29946C990026AE3E /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = E91B224929946C990026AE3E /* cloud.png */; };
 		E91B225E29946C990026AE3E /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E91B224A29946C990026AE3E /* nextButton.png */; };
 		E91B225F29946C990026AE3E /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = E91B224B29946C990026AE3E /* ocean.png */; };
@@ -62,7 +61,6 @@
 		E91B224529946C990026AE3E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		E91B224629946C990026AE3E /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
 		E91B224729946C990026AE3E /* island.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = island.png; sourceTree = "<group>"; };
-		E91B224829946C990026AE3E /* ocean.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ocean.gif; sourceTree = "<group>"; };
 		E91B224929946C990026AE3E /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		E91B224A29946C990026AE3E /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
 		E91B224B29946C990026AE3E /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				E91B224529946C990026AE3E /* backButton.png */,
 				E91B224629946C990026AE3E /* plane.png */,
 				E91B224729946C990026AE3E /* island.png */,
-				E91B224829946C990026AE3E /* ocean.gif */,
 				E91B224929946C990026AE3E /* cloud.png */,
 				E91B224A29946C990026AE3E /* nextButton.png */,
 				E91B224B29946C990026AE3E /* ocean.png */,
@@ -295,7 +292,6 @@
 				E91B225629946C990026AE3E /* plane3.png in Resources */,
 				E91B226029946C990026AE3E /* startButton.png in Resources */,
 				E91B226429946C990026AE3E /* engine.mp3 in Resources */,
-				E91B225C29946C990026AE3E /* ocean.gif in Resources */,
 				E91B226629946C990026AE3E /* yay.mp3 in Resources */,
 				E91B222C29946BC90026AE3E /* GameScene.sks in Resources */,
 				E91B226229946C990026AE3E /* yay.ogg in Resources */,
@@ -488,7 +484,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,7 +517,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
